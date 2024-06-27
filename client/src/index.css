@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Playwright';
+  src: local(Playwright), url('./assets/fonts/Playwright/PlaywriteNZ-VariableFont_wght.ttf') format("truetype")
+}
+
+body{
+  background-color: rgb(207, 237, 247);
+}
+
+a{
+  text-decoration: none;
+}
+
+/* targeting the class username, then using a pseudo-class, it transforms the first letter of the string */
+.username::first-letter{
+  text-transform: capitalize;
+}
+
+p::first-letter{
+  text-transform: capitalize;
+}
+
+.playwright{
+  font-family: 'Playwright';
+}
